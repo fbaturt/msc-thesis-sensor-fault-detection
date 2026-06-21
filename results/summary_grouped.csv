@@ -1,0 +1,13 @@
+fault_type,noise,phase_focus,T_delay_mean,T_miss_rate,T_FA_mean,R_delay_mean,R_miss_rate,R_FA_mean,n
+bias,low,climb,0.0,0.0,0.0,0.0,0.0,0.0,50
+bias,low,descent,0.0,0.0,0.0,0.0,0.0,0.0,50
+bias,med,climb,0.0,0.0,3.64,0.0,0.0,3.64,50
+bias,med,descent,0.0,0.0,22.18,0.0,0.0,22.18,50
+bias,high,climb,0.0,0.0,95.42,0.0,0.0,95.42,50
+bias,high,descent,0.028,0.0,576.88,0.028,0.0,576.88,50
+freeze,low,climb,,1.0,0.0,5.0,0.0,0.0,50
+freeze,low,descent,,1.0,0.0,4.992,0.0,0.0,50
+freeze,med,climb,,1.0,3.72,5.0,0.0,3.72,50
+freeze,med,descent,,1.0,21.6,4.998,0.0,21.6,50
+freeze,high,climb,0.0,0.78,102.02,3.9,0.0,102.02,50
+freeze,high,descent,0.0,0.86,573.06,4.3,0.0,573.06,50

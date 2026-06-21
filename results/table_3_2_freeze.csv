@@ -1,0 +1,7 @@
+Noise,Phase,T Delay (s),T Miss Rate,R Delay (s),R Miss Rate
+Low,Climb,—,1.00,5.00,0.00
+Low,Descent,—,1.00,4.99,0.00
+Medium,Climb,—,1.00,5.00,0.00
+Medium,Descent,—,1.00,5.00,0.00
+High,Climb,0.00,0.78,3.90,0.00
+High,Descent,0.00,0.86,4.30,0.00

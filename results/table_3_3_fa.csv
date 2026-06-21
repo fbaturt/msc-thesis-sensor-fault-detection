@@ -1,0 +1,13 @@
+Fault,Noise,Phase,T FA Mean,R FA Mean
+Bias,Low,Climb,0.00,0.00
+Bias,Low,Descent,0.00,0.00
+Bias,Medium,Climb,3.64,3.64
+Bias,Medium,Descent,22.18,22.18
+Bias,High,Climb,95.42,95.42
+Bias,High,Descent,576.88,576.88
+Freeze,Low,Climb,0.00,0.00
+Freeze,Low,Descent,0.00,0.00
+Freeze,Medium,Climb,3.72,3.72
+Freeze,Medium,Descent,21.60,21.60
+Freeze,High,Climb,102.02,102.02
+Freeze,High,Descent,573.06,573.06
