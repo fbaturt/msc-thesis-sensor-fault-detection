@@ -1,5 +1,5 @@
 # Aircraft Air Data Sensor Fault Detection
-### MSc Thesis — Riga Technical University, 2025
+### MSc Thesis — Riga Technical University, 2026
 
 > **Evaluation of Classical Fault Detection Methods for Aircraft Air Data Sensors Using Simulated Flight Data**
 >
@@ -230,7 +230,7 @@ Saves publication-quality figures to `figures/`.
 | Document | Description |
 |---|---|
 | [`Master_Thesis.pdf`](./Furkan_Batur_Tavli_Master_Thesis_231AMM063.pdf) | Full thesis — methodology, literature review, results, conclusions |
-| [`Diploma.pdf`](./Tavli_Furkan_Batur_Diploma.pdf) | MSc degree certificate — Riga Technical University, 2025 |
+| [`Diploma.pdf`](./Tavli_Furkan_Batur_Diploma.pdf) | MSc degree certificate — Riga Technical University, 2026 |
 
 ---
 
@@ -245,4 +245,4 @@ MSc Mechanical Engineering (Aviation Transport) · Riga Technical University
 
 ---
 
-*This repository contains the complete simulation codebase, result datasets, and analysis scripts produced for the MSc thesis at Riga Technical University (2025).*
+*This repository contains the complete simulation codebase, result datasets, and analysis scripts produced for the MSc thesis at Riga Technical University (2026).*
