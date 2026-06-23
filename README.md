@@ -3,9 +3,9 @@
 # Aircraft Air Data Sensor Fault Detection
 ### MSc Thesis — Riga Technical University, 2026
 
-> **Evaluation of Classical Fault Detection Methods for Aircraft Air Data Sensors Using Simulated Flight Data**
->
-> Furkan Batur Tavli · MSc Mechanical Engineering (Aviation Transport) · 231AMM063
+**Evaluation of Classical Fault Detection Methods for Aircraft Air Data Sensors Using Simulated Flight Data**
+
+ Furkan Batur Tavli · MSc Mechanical Engineering (Aviation Transport) · 231AMM063
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023+-0076A8?style=flat-square&logo=mathworks&logoColor=white)](https://www.mathworks.com/)
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
@@ -13,6 +13,7 @@
 [![Thesis](https://img.shields.io/badge/Thesis-PDF-red?style=flat-square)](./Furkan_Batur_Tavli_Master_Thesis_231AMM063.pdf)
 
 </div>
+
 ---
 
 ## 🎯 Overview
@@ -29,10 +30,14 @@ This thesis evaluates two **classical fault detection algorithms** — a thresho
 
 Air data sensor faults fall into several categories. This thesis focuses on two of the most operationally significant:
 
+<div align="center">
+
 | Fault Type | Description | Real-world analogue |
 |---|---|---|
 | **Bias** | Signal permanently offset by a fixed magnitude (+10 kt) after fault onset | Blocked pitot tube, calibration drift |
 | **Freeze** | Signal locks at the value recorded at fault onset | Ice blockage, stuck sensor |
+
+</div>
 
 The research question: *How well do simple, computationally inexpensive classical methods perform compared to each other under realistic noise conditions and across climb vs. descent phases?*
 
@@ -101,11 +106,15 @@ msc-thesis-sensor-fault-detection/
 ### Flight Profile
 A 600-second piecewise Indicated Airspeed (IAS) profile simulates a generic short-haul flight:
 
+<div align="center">
+
 | Phase | Time window | IAS range |
 |---|---|---|
 | Climb | 0 – 200 s | 140 → 250 kt |
 | Cruise | 200 – 450 s | 250 kt ± 1 kt (sine variation) |
 | Descent | 450 – 600 s | 250 → 160 kt |
+
+</div>
 
 Gaussian noise is applied at three levels: **low** (σ = 0.5 kt), **medium** (σ = 1.0 kt), **high** (σ = 2.0 kt).
 
@@ -138,6 +147,8 @@ Faults are injected randomly within 30–60% of the focused phase (climb or desc
 
 Both detectors perform strongly on bias faults. The +10 kt offset is large enough to trigger detection almost immediately across all noise levels.
 
+<div align="center">
+
 | Noise | Phase | T Delay (s) | T Miss Rate | R Delay (s) | R Miss Rate |
 |---|---|---|---|---|---|
 | Low | Climb | 0.00 | 0.00 | 0.00 | 0.00 |
@@ -147,7 +158,9 @@ Both detectors perform strongly on bias faults. The +10 kt offset is large enoug
 | High | Climb | 0.00 | 0.00 | 0.00 | 0.00 |
 | High | Descent | 0.03 | 0.00 | 0.03 | 0.00 |
 
-> T = Threshold Detector · R = Rate-of-Change Detector
+T = Threshold Detector · R = Rate-of-Change Detector
+
+</div>
 
 **Finding:** Both methods detect bias faults with near-zero delay and zero missed detections across all noise levels. High noise introduces a marginal 0.03 s delay, but reliability remains perfect.
 
@@ -156,6 +169,8 @@ Both detectors perform strongly on bias faults. The +10 kt offset is large enoug
 ### Freeze Fault Detection
 
 This is where the detectors diverge significantly.
+
+<div align="center">
 
 | Noise | Phase | T Delay (s) | T Miss Rate | R Delay (s) | R Miss Rate |
 |---|---|---|---|---|---|
@@ -166,11 +181,15 @@ This is where the detectors diverge significantly.
 | High | Climb | 0.00 | 0.78 | 3.90 | 0.00 |
 | High | Descent | 0.00 | 0.86 | 4.30 | 0.00 |
 
+</div>
+
 **Finding:** The threshold detector **completely fails** to detect freeze faults at low and medium noise (100% miss rate) — a frozen signal within normal bounds is invisible to absolute-limit checks. The rate-of-change detector detects all freeze faults with a consistent ~5 s delay (by design: the hold window). Under high noise, the threshold detector paradoxically recovers, as noise-induced jumps around the frozen value trigger the jump limit.
 
 ---
 
 ### False Alarm Analysis
+
+<div align="center">
 
 | Fault | Noise | Phase | T FA Mean | R FA Mean |
 |---|---|---|---|---|
@@ -178,6 +197,8 @@ This is where the detectors diverge significantly.
 | Bias | Medium | Climb | 3.64 | 3.64 |
 | Bias | High | Climb | 95.42 | 95.42 |
 | Freeze | High | Descent | 573.06 | 573.06 |
+
+</div>
 
 **Finding:** False alarm rates remain at zero under low noise for both detectors. Under high noise, false alarms increase substantially — predominantly in the descent phase where rate-of-change variability is highest. Both detectors share the same false alarm profile since both use rate-based logic for the jump/rate check.
 
@@ -228,6 +249,8 @@ Saves publication-quality figures to `figures/`.
 
 ---
 
+<div align="center">
+
 ## 📄 Documents
 
 | Document | Description |
@@ -249,3 +272,5 @@ MSc Mechanical Engineering (Aviation Transport) · Riga Technical University
 ---
 
 *This repository contains the complete simulation codebase, result datasets, and analysis scripts produced for the MSc thesis at Riga Technical University (2026).*
+
+</div>
