@@ -1,3 +1,5 @@
+<div align="center">
+
 # Aircraft Air Data Sensor Fault Detection
 ### MSc Thesis — Riga Technical University, 2026
 
@@ -10,6 +12,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)]()
 [![Thesis](https://img.shields.io/badge/Thesis-PDF-red?style=flat-square)](./Furkan_Batur_Tavli_Master_Thesis_231AMM063.pdf)
 
+</div>
 ---
 
 ## 🎯 Overview
