@@ -256,7 +256,7 @@ Saves publication-quality figures to `figures/`.
 | Document | Description |
 |---|---|
 | [`Master_Thesis.pdf`](./Furkan_Batur_Tavli_Master_Thesis_231AMM063.pdf) | Full thesis — methodology, literature review, results, conclusions |
-| [`Diploma.pdf`](./Tavli_Furkan_Batur_Diploma.pdf) | MSc degree certificate — Riga Technical University, 2026 |
+| [`Diploma.pdf`](./Tavli_Furkan_Batur_Diploma_Confidental.pdf) | MSc degree certificate — Riga Technical University, 2026 |
 
 ---
 
