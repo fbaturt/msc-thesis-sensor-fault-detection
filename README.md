@@ -9,7 +9,7 @@
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023+-0076A8?style=flat-square&logo=mathworks&logoColor=white)](https://www.mathworks.com/)
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)]()
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./Tavli_Furkan_Batur_Diploma_Confidental.pdf)
 [![Thesis](https://img.shields.io/badge/Thesis-PDF-red?style=flat-square)](./Furkan_Batur_Tavli_Master_Thesis_231AMM063.pdf)
 
 </div>
