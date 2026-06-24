@@ -95,7 +95,7 @@ msc-thesis-sensor-fault-detection/
 │   └── py_fig_D_freeze_delay_dist.png
 │
 ├── Furkan_Batur_Tavli_Master_Thesis_231AMM063.pdf
-├── Tavli_Furkan_Batur_Diploma.pdf
+├── Tavli_Furkan_Batur_Diploma_Confidental.pdf
 └── README.md
 ```
 
